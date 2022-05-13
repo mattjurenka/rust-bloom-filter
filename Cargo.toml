@@ -1,4 +1,4 @@
-[project]
+[package]
 name = "bloomfilter"
 version = "1.0.9"
 authors = ["Frank Denis <github@pureftpd.org>"]
@@ -17,3 +17,4 @@ siphasher = "0.3.7"
 default = ["random"]
 random = ["getrandom"]
 serde = ["siphasher/serde_std", "bit-vec/serde"]
+

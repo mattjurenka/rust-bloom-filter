@@ -1,0 +1,6 @@
+project: bloomfilter
+target: set-check
+duration: 90
+
+cmds:
+    - cmd: /set_check
